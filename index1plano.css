@@ -1,0 +1,147 @@
+body {
+    color: rgb(142, 102, 42);
+    background-color: rgb(255, 237, 214);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+h1 {
+    color: rgb(255, 237, 214);
+    font-family: 'Franklin Gothic Medium';
+}
+
+h2{
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+
+}
+
+h3{
+text-decoration: underline;
+}
+
+h4{
+  text-align: left;
+  text-decoration: none;
+}
+header {
+    background-color:rgb(142, 102, 42);
+color:whitesmoke;
+    height: 82px;
+  border-bottom: 1px solid black;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  
+}
+
+@media screen and (max-width: 768px) {
+    .logo img {
+      width: 100px; /* Ajusta el tamaño del logotipo para pantallas pequeñas */
+    }
+  
+    nav ul {
+      text-align: center; /* Centra los elementos de navegación en pantallas pequeñas */
+      padding-top: 10px; /* Espaciado superior en pantallas pequeñas */
+    }
+  
+    nav li {
+      display: block; /* Coloca cada elemento de navegación en una línea separada */
+      margin-bottom: 10px; /* Espaciado entre elementos de navegación */
+    }
+
+    header .lista li {
+        display: flex;
+        align-items: center;
+        padding: 2px;
+    }
+
+    header{
+      padding: 2px;
+    }
+
+    header .lista{
+      padding:1x;
+    }
+
+    section{
+      display:inline-block;
+     
+    }
+  }
+
+header .lista li{
+    display: inline-block;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.lista li:hover {
+    text-decoration: underline;
+
+}
+
+img {
+    max-width: 45% ;
+    height: auto;
+}
+
+.alLado {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100vw; 
+  gap:10px;
+}
+
+.Jazzie{
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: rgb(255, 237, 214);
+    border: 2px solid rgb(142, 102, 42); 
+    border-radius: 5px;
+  }
+
+  .botonEspecial {
+    background-color: rgb(246, 232, 212);
+    border: 2px solid white; 
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: rgb(142, 102, 42) ;
+    color: white;
+  }
+
+  .botonEspecial:hover {
+    background-color: white;
+    border: 2px solid rgb(142, 102, 42); 
+    border-radius: 5px;
+    color:rgb(142, 102, 42);
+  }
+
+  footer {
+    background-color:rgb(142, 102, 42);
+    color:whitesmoke;
+      height: 82px;
+      border-top: 1px solid black;
+      display: flex;
+      /*justify-content: space-between;*/
+      align-items: center;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: small;
+      align-content: center;
+  }
+
+  .imagenGrande{
+    height: 50%;
+    width: 50%;
+  }

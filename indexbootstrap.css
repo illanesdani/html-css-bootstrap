@@ -1,0 +1,30 @@
+navbar{
+    background-color: rgb(142, 102, 42);
+}
+
+h5{
+    background-color: black;
+    color: white;
+}
+
+p{
+    background-color: black;
+    color: white;
+}
+
+.centrado {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 50px;   /* Añade un margen superior para centrar verticalmente */
+}
+
+/* Cambia el tamaño del carrusel */
+.achicando {
+    max-width: 300px; /* Ancho máximo deseado */
+    max-height: 200px; /* Altura máxima deseada */
+    width: auto;
+    height: auto;
+}
+
+.inline {
+    display:inline-block;
+}
